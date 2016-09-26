@@ -1,7 +1,7 @@
 {
   "name": "web2web-lib",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "bitcoinjs-lib": "^2.3.0",
     "bluebird": "^3.4.6",
