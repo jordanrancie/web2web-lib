@@ -3,11 +3,14 @@ Create your own distributed webpage. Take a look at the original [web2web](https
 
 
 ### Install
-Web2web is a browser library. Download the minified `web2web.min.js`.
+Web2web is a browser library. Use the minified `web2web.min.js`:
 
-Alternatively you can [browserify](http://browserify.org) it by yourself:
+    <script src="https://elendirx.github.io/web2web-lib/web2web.min.js"></script>
 
-    npm install web2web-lib
+
+Alternatively you can [browserify](http://browserify.org) / [minify](https://github.com/mishoo/UglifyJS2) it by yourself:
+
+    browserify index.js -s Web2Web | uglifyjs -m -c  > web2web.min.js
     
 
 ### API
